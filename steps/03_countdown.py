@@ -1,7 +1,7 @@
 import os, time, pygame
 os.environ.setdefault("SDL_VIDEODRIVER", "kmsdrm")
 
-ROTATION = 180   # 0 = normal, 180 = upside down, 90 or -90 = portrait
+ROTATION = 90   # 0 = normal, 180 = upside down, 90 or -90 = portrait
 
 pygame.init()
 screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
